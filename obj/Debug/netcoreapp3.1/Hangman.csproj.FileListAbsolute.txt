@@ -1,0 +1,13 @@
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\bin\Debug\netcoreapp3.1\Hangman.exe
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\bin\Debug\netcoreapp3.1\Hangman.deps.json
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\bin\Debug\netcoreapp3.1\Hangman.runtimeconfig.json
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\bin\Debug\netcoreapp3.1\Hangman.runtimeconfig.dev.json
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\bin\Debug\netcoreapp3.1\Hangman.dll
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\bin\Debug\netcoreapp3.1\Hangman.pdb
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\obj\Debug\netcoreapp3.1\Hangman.csprojAssemblyReference.cache
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\obj\Debug\netcoreapp3.1\Hangman.AssemblyInfoInputs.cache
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\obj\Debug\netcoreapp3.1\Hangman.AssemblyInfo.cs
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\obj\Debug\netcoreapp3.1\Hangman.csproj.CoreCompileInputs.cache
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\obj\Debug\netcoreapp3.1\Hangman.dll
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\obj\Debug\netcoreapp3.1\Hangman.pdb
+E:\ElevenFiftyProjects\DotNetProjects\Hangman Pair\Hangman\obj\Debug\netcoreapp3.1\Hangman.genruntimeconfig.cache
