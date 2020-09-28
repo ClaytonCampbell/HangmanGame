@@ -19,7 +19,7 @@ namespace Hangman
                 answerArray[i] = '_';
             while (true)
             {
-                var hangmanGuess = Console.ReadKey().KeyChar; ;
+                char hangmanGuess = Console.ReadKey().KeyChar;
                 for (int l = 0; l < hangmanAnswer.Length; l++)
                 {
                     if (hangmanGuess == hangmanAnswer[l])
@@ -28,10 +28,22 @@ namespace Hangman
             if (Array.IndexOf(answerArray, hangmanGuess) < 0)
             {
                 lives -= 1;
+                if (lives == 0)
+                    {
+                        Console.Clear();
+                        Console.WriteLine("You've lost all your parts. \nGame Over.");
+                        Console.ReadLine();
+                    }
             }
                 Console.WriteLine("\n");
                 Console.WriteLine(answerArray);
-            Console.WriteLine(lives);
+                Console.WriteLine(lives);
+                string result = new string(answerArray);
+            if (result == hangmanAnswer)
+                {
+                    Console.Clear();
+                    Console.WriteLine("You've won the game!");
+                }
             }
             Console.ReadLine();
         }
