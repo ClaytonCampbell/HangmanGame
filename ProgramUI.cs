@@ -40,7 +40,7 @@ namespace Hangman
                     }
                     Console.WriteLine("\n");
                     Console.WriteLine(answerArray);
-                    Console.WriteLine(lives);
+                    Console.WriteLine($"You have {lives} guesses remaining.");
                     string result = new string(answerArray);
                     if (result == hangmanAnswer)
                     {
