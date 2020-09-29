@@ -32,7 +32,7 @@ namespace Hangman
 
                     default:
                         Console.WriteLine("Please select 1, 2, or 3 as a difficulty.");
-                        return lives;
+                        break;
                 }
             }
             return lives;
