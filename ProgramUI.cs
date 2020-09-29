@@ -30,6 +30,10 @@ namespace Hangman
                     if (Array.IndexOf(answerArray, hangmanGuess) < 0)
                     {
                         lives -= 1;
+                        if (lives > 0)
+                        {
+                            Console.WriteLine("\nWrong guess.\nTry again.");
+                        }
                         if (lives == 0)
                         {
                             Console.Clear();
@@ -40,7 +44,7 @@ namespace Hangman
                     }
                     Console.WriteLine("\n");
                     Console.WriteLine(answerArray);
-                    Console.WriteLine($"You have {lives} parts remaining.");
+                    Console.WriteLine($"You have {lives} lives remaining.");
                     string result = new string(answerArray);
                     if (result == hangmanAnswer)
                     {
