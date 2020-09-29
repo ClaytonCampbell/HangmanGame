@@ -34,7 +34,7 @@ namespace Hangman
                         {
                             Console.WriteLine("\nWrong guess.\nTry again.");
                         }
-                        if (lives == 0)
+                        if (lives <= 0)
                         {
                             Console.Clear();
                             Console.WriteLine("You've lost all your parts. \nGame Over.");
