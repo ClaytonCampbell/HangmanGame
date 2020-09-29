@@ -6,11 +6,11 @@ namespace Hangman
 {
     public class WordGenerate
     {
-        string[] HangmanAnswers = { "boogie", "taco", "extreme" };
+        string[] HangmanAnswers = { "turbo", "taco", "extreme", "headphones", "juggle", "xylophone", "paparazzi" };
         public string NewWord()
         {
             Random newAnswer = new Random();
-            var tko = newAnswer.Next(0, 3);
+            var tko = newAnswer.Next(0, 7);
             string hangmanAnswer = HangmanAnswers[tko];
             return hangmanAnswer;
         }
