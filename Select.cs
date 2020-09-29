@@ -11,7 +11,7 @@ namespace Hangman
             int lives = 1;
             while (lives == 1)
             {
-                Console.WriteLine("Select your difficulty!\n1) Easy\n2) Normal\n 3) Hard");
+                Console.WriteLine("Select your difficulty!\n1) Easy\n2) Normal\n3) Hard");
                 string difficulty = Console.ReadLine();
                 switch (difficulty.ToLower())
                 {
