@@ -10,7 +10,7 @@ namespace Hangman
         public string NewWord()
         {
             Random newAnswer = new Random();
-            var tko = newAnswer.Next(0, 7);
+            var tko = newAnswer.Next(0, HangmanAnswers.Length-1);
             string hangmanAnswer = HangmanAnswers[tko];
             return hangmanAnswer;
         }
